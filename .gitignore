@@ -62,3 +62,4 @@ Thumbs.db
 # Configuration files with sensitive data (examples)
 local.properties
 secrets.yml
+/.fastRequest/config/fastRequestCurrentProjectConfig.json

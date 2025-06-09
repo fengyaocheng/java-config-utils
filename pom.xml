@@ -5,14 +5,14 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>com.github.20118dfd</groupId>
+    <groupId>com.github.fyc</groupId>
     <artifactId>java-config-utils</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
     
     <name>Java Config Utils</name>
     <description>A lightweight Java library for simplified application configuration management</description>
-    <url>https://github.com/20118dfd/java-config-utils</url>
+    <url>https://github.com/fyc/java-config-utils</url>
     
     <licenses>
         <license>
@@ -24,16 +24,16 @@
     
     <developers>
         <developer>
-            <id>20118dfd</id>
-            <name>20118dfd</name>
-            <url>https://github.com/20118dfd</url>
+            <id>fyc</id>
+            <name>fyc</name>
+            <url>https://github.com/fyc</url>
         </developer>
     </developers>
     
     <scm>
-        <connection>scm:git:https://github.com/20118dfd/java-config-utils.git</connection>
-        <developerConnection>scm:git:https://github.com/20118dfd/java-config-utils.git</developerConnection>
-        <url>https://github.com/20118dfd/java-config-utils</url>
+        <connection>scm:git:https://github.com/fyc/java-config-utils.git</connection>
+        <developerConnection>scm:git:https://github.com/fyc/java-config-utils.git</developerConnection>
+        <url>https://github.com/fyc/java-config-utils</url>
     </scm>
     
     <properties>

@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Java Version](https://img.shields.io/badge/Java-11%2B-blue.svg)](https://www.oracle.com/java/)
-[![Maven Central](https://img.shields.io/maven-central/v/com.github.20118dfd/java-config-utils.svg)](https://mvnrepository.com/artifact/com.github.20118dfd/java-config-utils)
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.fyc/java-config-utils.svg)](https://mvnrepository.com/artifact/com.github.fyc/java-config-utils)
 
 A lightweight Java library for simplified application configuration management. Java Config Utils provides a unified API to work with multiple configuration formats including Properties, YAML, and JSON, with support for environment variables, hot reloading, and type-safe configuration access.
 
@@ -24,7 +24,7 @@ Add the dependency to your `pom.xml`:
 
 ```xml
 <dependency>
-    <groupId>com.github.20118dfd</groupId>
+    <groupId>com.github.fyc</groupId>
     <artifactId>java-config-utils</artifactId>
     <version>1.0.0</version>
 </dependency>
@@ -33,8 +33,8 @@ Add the dependency to your `pom.xml`:
 ### Basic Usage
 
 ```java
-import com.github.a20118dfd.configutils.ConfigManager;
-import com.github.a20118dfd.configutils.Config;
+import com.github.afyc.configutils.ConfigManager;
+import com.github.afyc.configutils.Config;
 
 // Load configuration from file
 ConfigManager manager = ConfigManager.builder()
@@ -130,7 +130,7 @@ ConfigManager manager = ConfigManager.builder()
 ## 🏗️ Building from Source
 
 ```bash
-git clone https://github.com/20118dfd/java-config-utils.git
+git clone https://github.com/fyc/java-config-utils.git
 cd java-config-utils
 mvn clean install
 ```
@@ -179,4 +179,4 @@ If you have any questions or need help, please:
 
 ---
 
-**Made with ❤️ by [20118dfd](https://github.com/20118dfd)**
+**Made with ❤️ by [fyc](https://github.com/fyc)**
